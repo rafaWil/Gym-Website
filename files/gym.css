@@ -78,6 +78,8 @@ header {
     text-transform: uppercase;
     font-family: "Anton", sans-serif;
     font-style: italic;
+    left: 50%;
+    transform: translate(-60%, 850%);
 }
   
   .cssbuttons-io-button .icon {

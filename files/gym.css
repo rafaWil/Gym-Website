@@ -29,6 +29,34 @@ header {
     transition: all 0.8s;
 }
 
+/* Style in MENU TOPICS */
+.home_topics {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    align-items: flex-start;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.home_topics a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.8s;
+}
+
+.home_topics a:hover {
+    color: rgb(224, 224, 5);
+    font-size: 17px;
+    transition: all 0.8s;
+}
+
 /* Style in TEXT HEADER */
 .Text_header {
     font-family: "Anton", sans-serif;

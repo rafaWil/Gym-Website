@@ -28,3 +28,17 @@ header {
     height: 130px;
     transition: all 0.8s;
 }
+
+/* Style Phrase in middle text */
+.Text_header span{
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.best {
+    font-size: 100px;
+    color: rgb(224, 224, 5);
+    margin-left: 20px;
+}

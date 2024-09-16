@@ -16,9 +16,9 @@ header {
 
 /* Style in LOGO ICON */
 .logo_icon img {
-    width: 120px;
+    width: 190px;
     height: 120px;
-    margin-left: 2%;
+    margin-left: 1%;
     transition: all 0.8s;
 }
 

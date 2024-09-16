@@ -5,4 +5,9 @@
     padding: 0;
 }
 
+/* Style in BODY */
+body {
+    background-image: url(../images/home_walpaper.jpg);
+}
+
 /* Style in BACKGROUND - IMAGE */

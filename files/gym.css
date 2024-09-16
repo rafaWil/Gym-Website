@@ -8,6 +8,10 @@
 /* Style in BODY */
 body {
     background-image: url(../images/home_walpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 /* Style in BACKGROUND - IMAGE */

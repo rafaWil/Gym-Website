@@ -29,6 +29,14 @@ header {
     transition: all 0.8s;
 }
 
+/* Style in TEXT HEADER */
+.Text_header {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: italic;
+}
+
 /* Style Phrase in middle text */
 .Text_header span{
     font-size: 100px;

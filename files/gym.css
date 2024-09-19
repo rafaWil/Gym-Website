@@ -163,8 +163,22 @@ header {
 }
 
 /* Title with hover */
-.title_about:hover {
+.title_about .text_span:hover {
     color: rgb(255, 255, 255);
     transition: all 0.8s;
     font-size: 52px;
+}
+
+/* Style in TEXT ABOUT */
+.text_about {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+    top: 100%;
+    margin-left: -20px;
+    padding-top: 10px;
 }

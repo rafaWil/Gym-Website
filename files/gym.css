@@ -49,6 +49,7 @@ header {
     text-decoration: none;
     color: #fff;
     transition: all 0.8s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home_topics a:hover {

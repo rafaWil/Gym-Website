@@ -248,3 +248,15 @@ a {
     position: absolute;
     transition: all 0.8s;
 }
+
+/* Hover in title */
+.title_service .text_span {
+    transition: color 0.8s ease-in-out, font-size 0.8s ease-in-out;
+}
+
+/* Title with hover */
+.title_service .text_span:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.8s;
+    font-size: 52px;
+}

@@ -183,6 +183,10 @@ a {
     transition: all 0.8s;
 }
 
+.title_about .text_span {
+    transition: color 0.8s ease-in-out, font-size 0.8s ease-in-out;
+}
+
 /* Title with hover */
 .title_about .text_span:hover {
     color: rgb(255, 255, 255);

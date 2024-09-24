@@ -339,10 +339,11 @@ a {
 
 /* Style in TOPICS IN FOOTER */
 .footer_topics {
-    display: flex;
+    display: flex; 
     background-color: rgb(224, 224, 5);
     width: 100%;
     height: 20vh;
+    justify-content:space-between;
 }
 
 .Address_contact span {
@@ -354,13 +355,49 @@ a {
     font-style: italic;
 }
 
+.Address_contact p {
+    font-size: 20px;
+    width: 80%;
+    margin-left: 15px;
+    color: #1a1919;
+    text-transform: lowercase;
+}
+
+
+.phone_contact_footer span {
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
+
+
+.phone_contact_footer p {
+    font-size: 20px;
+    width: 17%;
+    height: 0vh;
+    margin-top: -60px;
+    color: #1a1919;
+    text-transform: lowercase;
+}
+
+
 .email_contact p {
     font-size: 27px;
     text-transform: uppercase;
     color: #000;
-    margin-left: 300px;
+    margin-left: 180px;
     font-family: 'Anton', sans-serif;   
     font-style: italic;
+}
+
+.email_contact a {
+    font-size: 20px;
+    color: #1a1919;
+    margin-left: 160px;
+    text-transform: lowercase;
+    margin-right: 150px;
 }
 
 .title_phone {
@@ -368,6 +405,30 @@ a {
     text-transform: uppercase;
     color: #000;
     font-style: italic;
-    margin-left: 400px;
+    margin-left: 90px;
+    margin-right: 20px;
     font-family: 'Anton', sans-serif;
+}
+
+.phone_contact_footer p {
+    font-size: 20px;
+    width: 80%;
+    float: inline-end;
+    color: #1a1919;
+    text-transform: lowercase;
+}
+
+.footer_topics phone {
+    background-color: #000;
+    margin-top: 50px;
+    width: 13%;
+    height: 3vh;
+    margin-right: 50px;
+}
+
+.phone_number p {
+    width: 80%;
+    height: 5vh;
+    margin-top: 10px;
+    margin-right: 10px;
 }

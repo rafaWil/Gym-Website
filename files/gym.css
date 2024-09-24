@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #000;
 }
 
 /* Style in BODY */
@@ -233,7 +234,7 @@ a {
 /* SERVICE PART STYLE */
 #Service_cont {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: #000;
     color: #fff;
     align-items: center;
@@ -311,4 +312,14 @@ a {
     box-shadow: 0px 0px 25px #fff;
 }
 
+/* Style in CONTACT and include background image*/
+#part_Contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('../images/contact_image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
 
